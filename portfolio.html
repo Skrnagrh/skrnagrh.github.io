@@ -35,9 +35,15 @@
     <link href="assets/css/blog.css" rel="stylesheet" />
     <link href="assets/css/footer.css" rel="stylesheet" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Add Bootstrap Icons CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.21.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Add Bootstrap Icons CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.21.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <style>
       .gallery {
@@ -45,7 +51,7 @@
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 10px;
       }
-      a{
+      a {
         text-decoration: none;
         color: #000;
       }
@@ -77,8 +83,10 @@
           padding: 10px 0; /* Add some padding for spacing */
         }
       }
+      p{
+        text-align: justify;
+      }
     </style>
-    
   </head>
 
   <body>
@@ -118,7 +126,7 @@
       <div class="hero-content display-table">
         <div class="table-cell">
           <div class="container">
-            <h2 class="hero-title mb-4">Design Vektor</h2>
+            <h2 class="hero-title mb-4">Portfolio Detail</h2>
           </div>
         </div>
       </div>
@@ -132,17 +140,37 @@
             <div class="row justify-content-center">
               <div class="col-md-10">
                 <div class="icon-links d-flex justify-content-center">
-                  <a class="nav-link" data-page="vektor" onclick="showImages('vektor')">
-                    <i class="bi bi-file-earmark-richtext"></i><span class="d-none d-md-inline"> Vektor</span>
+                  <a
+                    class="nav-link"
+                    data-page="vektor"
+                    onclick="showImages('vektor')"
+                  >
+                    <i class="bi bi-file-earmark-richtext"></i
+                    ><span class="d-none d-md-inline"> Vektor</span>
                   </a>
-                  <a class="nav-link" data-page="web" onclick="showImages('web')">
-                    <i class="bi bi-globe"></i><span class="d-none d-md-inline"> Web</span>
+                  <a
+                    class="nav-link"
+                    data-page="web"
+                    onclick="showImages('web')"
+                  >
+                    <i class="bi bi-globe"></i
+                    ><span class="d-none d-md-inline"> Web</span>
                   </a>
-                  <a class="nav-link" data-page="typography" onclick="showImages('typography')">
-                    <i class="bi bi-fonts"></i><span class="d-none d-md-inline"> Typography</span>
+                  <a
+                    class="nav-link"
+                    data-page="typography"
+                    onclick="showImages('typography')"
+                  >
+                    <i class="bi bi-fonts"></i
+                    ><span class="d-none d-md-inline"> Typography</span>
                   </a>
-                  <a class="nav-link" data-page="other" onclick="showImages('other')">
-                    <i class="bi bi-file-earmark-image"></i><span class="d-none d-md-inline"> Other</span>
+                  <a
+                    class="nav-link"
+                    data-page="other"
+                    onclick="showImages('other')"
+                  >
+                    <i class="bi bi-file-earmark-image"></i
+                    ><span class="d-none d-md-inline"> Other</span>
                   </a>
                 </div>
 
@@ -782,17 +810,15 @@
                         </div>
                       </div>
                       <div class="col-md-4 p-4">
-                        <h3>LOrem</h3>
+                        <h3>SPK Pemilihan Objek Wisata Air Terjun dengan Metode SMART</h3>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Inventore aliquam aliquid necessitatibus
-                          assumenda quas tempora porro mollitia atque nobis
-                          itaque quasi animi incidunt enim ea veniam, debitis
-                          vel velit ipsum.
+                          Proyek web ini bertujuan untuk memfasilitasi pengguna dalam memilih objek wisata alam air terjun yang sesuai dengan preferensi mereka. Proyek ini diimplementasikan menggunakan bahasa pemrograman PHP dengan dukungan framework Laravel untuk sisi backend, dan Bootstrap serta Vue.js untuk sisi frontend.
                         </p>
+                        Silahkan Kunjungi github <a href="https://github.com/skrnagrh" class="text-primary" target="_blank">skrnagrh</a>
                       </div>
                     </div>
                   </div>
+
                   <div class="card shadow mb-3">
                     <div class="row">
                       <div class="col-md-8">
@@ -847,17 +873,15 @@
                         </div>
                       </div>
                       <div class="col-md-4 p-4">
-                        <h3>LOrem</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Inventore aliquam aliquid necessitatibus
-                          assumenda quas tempora porro mollitia atque nobis
-                          itaque quasi animi incidunt enim ea veniam, debitis
-                          vel velit ipsum.
+                        <h3>SPK Pemilihan Karyawan PHK Menggunakan Metode AHP</h3>
+                        <p id="project-description">
+                          Proyek web ini bertujuan untuk membantu proses pemilihan karyawan yang akan mengalami pemutusan hubungan kerja (PHK) berdasarkan Metode Analytic Hierarchy Process (AHP). Proyek ini menggunakan bahasa pemrograman PHP dengan dukungan framework Laravel untuk sisi backend, dan Bootstrap untuk sisi frontend.
                         </p>
+                        <p>Silahkan Kunjungi github <a href="https://github.com/skrnagrh" class="text-primary" target="_blank">skrnagrh</a></p> 
                       </div>
                     </div>
-                  </div>
+                  </div>                  
+                  
                 </div>
 
                 <div id="typography-images" class="d-none">
@@ -1339,251 +1363,280 @@
                     </div>
                   </div>
                 </div>
+
+                <div id="other-images" class="d-none">
+                  <div class="post-meta">
+                    <ul>
+                      <li>
+                        <span class="bi bi-person"></span>
+                        <a>Sukron</a>
+                      </li>
+                      <li>
+                        <span class="bi bi-tag"></span>
+                        <a>Other</a>
+                      </li>
+                      <li>
+                        <span class="bi bi-file-earmark-richtext"></span>
+                        <a>3</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                  <div class="col-md-4">
+                    <div class="widget-sidebar">
+                      <h5 class="sidebar-title">Catalogue</h5>
+                      <div class="sidebar-content">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="work-box">
+                              <a
+                                href="assets/img/design/Catalogue.png"
+                                data-gallery="portfolioGallery"
+                                class="portfolio-lightbox"
+                              >
+                                <div class="work-img">
+                                  <img
+                                    src="assets/img/design/Catalogue.png"
+                                    alt=""
+                                    class="img-fluid"
+                                  />
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-4">
+                    <div class="widget-sidebar">
+                      <h5 class="sidebar-title">Majalah</h5>
+                      <div class="sidebar-content">
+                        <div class="row">
+                          <div class="col-md-12">
+                              <div class="portfolio-details-slider swiper">
+                                <div class="swiper-wrapper align-items-center">
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/01.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/01.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/02.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/02.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/03.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/03.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/04.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/04.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/05.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/05.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/06.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/06.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/07.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/07.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/08.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/08.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/09.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/09.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/010.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/010.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/011.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/011.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="work-box">
+                                      <a
+                                        href="assets/img/Majalah/012.jpg"
+                                        data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox"
+                                      >
+                                        <div class="work-img">
+                                          <img
+                                            src="assets/img/Majalah/012.jpg"
+                                            alt=""
+                                            class="img-fluid"
+                                          />
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                  </div>
               </div>
             </div>
 
-            <!-- <div class="col-md-4">
-              <div class="widget-sidebar">
-                <h5 class="sidebar-title">Design Catalogue</h5>
-                <div class="sidebar-content">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="work-box">
-                        <a
-                          href="assets/img/design/Catalogue.png"
-                          data-gallery="portfolioGallery"
-                          class="portfolio-lightbox"
-                        >
-                          <div class="work-img">
-                            <img
-                              src="assets/img/design/Catalogue.png"
-                              alt=""
-                              class="img-fluid"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="widget-sidebar">
-                <h5 class="sidebar-title">Design Majalah</h5>
-                <div class="sidebar-content">
-                  <div class="col-md-12">
-                    <div class="portfolio-details-slider swiper">
-                      <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/01.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/01.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/02.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/02.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/03.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/03.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/04.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/04.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/05.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/05.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/06.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/06.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/07.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/07.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/08.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/08.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/09.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/09.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/010.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/010.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/011.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/011.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="work-box">
-                            <a
-                              href="assets/img/Majalah/012.jpg"
-                              data-gallery="portfolioGallery"
-                              class="portfolio-lightbox"
-                            >
-                              <div class="work-img">
-                                <img
-                                  src="assets/img/Majalah/012.jpg"
-                                  alt=""
-                                  class="img-fluid"
-                                />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-pagination"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+            
           </div>
         </div>
       </section>
@@ -1724,18 +1777,15 @@
 
         // Save the selected category in localStorage
         localStorage.setItem("selectedCategory", category);
-        
       }
-      const links = document.querySelectorAll('.icon-links .nav-link');
-      links.forEach(link => {
-        if (link.getAttribute('data-page') === category) {
-          link.classList.add('active');
+      const links = document.querySelectorAll(".icon-links .nav-link");
+      links.forEach((link) => {
+        if (link.getAttribute("data-page") === category) {
+          link.classList.add("active");
         } else {
-          link.classList.remove('active');
+          link.classList.remove("active");
         }
       });
-    
-      
     </script>
   </body>
 </html>
