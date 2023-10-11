@@ -373,12 +373,19 @@ select:disabled {
   display: none;
 }
 
+
 button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
+
+
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -433,9 +440,10 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
+[type="search"] {
+  border: 1px solid #999;
+  padding: 5px;
   outline-offset: -2px;
-  -webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -648,7 +656,8 @@ progress {
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    /* habis diubah aslinya 720*/
+    max-width: 700px;
   }
 }
 @media (min-width: 992px) {
@@ -2475,7 +2484,7 @@ textarea.form-control-lg {
   margin-left: -1.5em;
 }
 
-.form-check-input {
+/* .form-check-input {
   width: 1em;
   height: 1em;
   margin-top: 0.25em;
@@ -2490,7 +2499,23 @@ textarea.form-control-lg {
           appearance: none;
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
+} */
+
+.form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
+
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
 }
