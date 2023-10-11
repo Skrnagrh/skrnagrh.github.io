@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+  
+  .work-img {
+    display: block;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 5px;
+  }
+  
+  .work-img img {
+    transition: all 1s;
+  }
+  
+  .work-content {
+    padding: 2rem 3% 1rem 4%;
+  }
+  
+  .work-content .w-more {
+    color: #4e4e4e;
+    font-size: 0.8rem;
+  }
+  
+  .work-content .w-more .w-ctegory {
+    color: #346751;
+  }
+  
+  .work-content .w-like {
+    font-size: 2.5rem;
+    color: #346751;
+    float: right;
+  }
+  
+  .work-content .w-like a {
+    color: #346751;
+  }
+  
+  .work-content .w-like .num-like {
+    font-size: 0.7rem;
+  }
+  
+  .w-title {
+    font-size: 1.2rem;
+  } */
+  
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+    padding-top: 40px;
+  }
+  
+  .portfolio-details .portfolio-details-slider img {
+    width: 100%;
+  }
+  
+  .portfolio-details .portfolio-details-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #346751;
+  }
+  
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #346751;
+  }
+  
+  .portfolio-details .portfolio-info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  }
+  
+  .portfolio-details .portfolio-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .portfolio-details .portfolio-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .portfolio-details .portfolio-info ul li+li {
+    margin-top: 10px;
+  }
+  
+  .portfolio-details .portfolio-description {
+    padding-top: 30px;
+  }
+  
+  .portfolio-details .portfolio-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-details .portfolio-description p {
+    padding: 0;
+  }
+
+/* Style for the active link */
+.hr-atas{
+  margin-bottom: -3px ;
+}
+.hr-bawah{
+  margin-top: -3px ;
+}
+
+.icon-links .nav-link {
+  font-weight: bold; /* Atur sesuai preferensi Anda */
+  color: #212529; /* Atur warna sesuai preferensi Anda */
+}
+
+.icon-links .nav-link.active {
+  font-weight: bold;
+  color: #1abc9c;
+  border-top: 2px solid #1abc9c;
+}
+
+@media (max-width: 768px) {
+  .bi.icon {
+    font-size: 28px; 
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+  
+
+.card-web {
+  display: block;
+  overflow: hidden;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 15px;
+}
+
+.img-typography{
+  border: 1px solid #1abc9c;
+  border-radius: 10px
+}
+

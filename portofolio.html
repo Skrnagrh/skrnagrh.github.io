@@ -1,0 +1,2387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portofolio - Sukron</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/interest.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/img.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- batas -->
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="page-top">
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">Sukron</a>
+        <button
+          class="navbar-toggler text-uppercase font-weight-bold text-white rounded"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded"
+                href="index.html#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded"
+                href="index.html#experience"
+                >Experiences</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded"
+                href="index.html#education"
+                >Education</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded"
+                href="index.html#skill"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portofoilo"
+                >Portofolio</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header
+      class="masthead text-white text-center"
+      id="portofoilo"
+      style="background-image: url('/assets/img/bg.png')"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h1 class="masthead-heading text-uppercase mb-0 fs-3">Sukron</h1>
+            <div class="divider-custom divider-light">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon text-uppercase fs-3">
+                Portofolio
+              </div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <p class="masthead-subheading font-weight-light mb-3 fs-5">
+              Design Vektor - Project Web - Design Typographi - Other
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- tampilan portofolio -->
+    <section
+      class="page-section portofoilo"
+      id="portofoilo"
+      style="margin-top: -100px"
+    >
+      <div class="container justify-content-center">
+        <hr class="hr-atas text-primary" />
+        <div class="icon-links d-flex justify-content-center">
+          <a
+            class="nav-link"
+            data-page="vektor"
+            onclick="showImages('vektor')"
+            style="cursor: pointer"
+          >
+            <i class="bi bi-file-earmark-richtext icon"></i>
+            <span class="d-none d-md-inline"> Vektor</span>
+          </a>
+          <a
+            class="nav-link"
+            data-page="web"
+            onclick="showImages('web')"
+            style="cursor: pointer"
+          >
+            <i class="bi bi-globe icon"></i>
+            <span class="d-none d-md-inline"> Web</span>
+          </a>
+          <a
+            class="nav-link"
+            data-page="typography"
+            onclick="showImages('typography')"
+            style="cursor: pointer"
+          >
+            <i class="bi bi-fonts icon"></i>
+            <span class="d-none d-md-inline"> Typography</span>
+          </a>
+          <a
+            class="nav-link"
+            data-page="other"
+            onclick="showImages('other')"
+            style="cursor: pointer"
+          >
+            <i class="bi bi-file-earmark-image icon"></i>
+            <span class="d-none d-md-inline"> Other</span>
+          </a>
+        </div>
+        <hr class="hr-bawah text-primary" />
+
+        <!-- Vektor -->
+        <div id="vektor-images" class="d-none">
+          <div class="row row-cols-3 my-3">
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/1.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/2.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/3.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/4.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/5.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/6.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/7.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/7.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/8.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/8.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/9.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/9.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/10.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/10.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/11.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/11.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/12.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/12.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/13.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/13.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/14.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/14.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/15.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/15.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/16.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/16.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/17.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/17.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/vektor/18.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/portofolio/vektor/18.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 mt-3">
+              <a
+                href="https://pin.it/6yHxPiN"
+                target="_blank"
+                class="text-decoration-none text-dark"
+                >Lanjut Lihat di Pinterest
+                <i class="bi bi-arrow-right-circle"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web -->
+        <div id="web-images" class="d-none">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card card-web">
+                <div id="web1" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/web/airterjun/1.png"
+                        data-gallery="GalleryWeb1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/airterjun/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/airterjun/2.png"
+                        data-gallery="GalleryWeb1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/airterjun/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/airterjun/3.png"
+                        data-gallery="GalleryWeb1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/airterjun/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#web1"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#web1"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <h6>SPK Pemilihan Wisata dengan Metode SMART</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card card-web">
+                <div id="web2" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/web/surat-arsip/1.png"
+                        data-gallery="GalleryWeb2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/surat-arsip/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/surat-arsip/2.png"
+                        data-gallery="GalleryWeb2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/surat-arsip/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/surat-arsip/3.png"
+                        data-gallery="GalleryWeb2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/surat-arsip/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#web2"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#web2"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/sistem_surat_arsip"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6>Sistem Surat Arsip Pada PT. Indah Persada Tech</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card card-web">
+                <div id="web3" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/web/rek-kosan/1.png"
+                        data-gallery="GalleryWeb3"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/rek-kosan/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/rek-kosan/2.png"
+                        data-gallery="GalleryWeb3"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/rek-kosan/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/rek-kosan/3.png"
+                        data-gallery="GalleryWeb3"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/rek-kosan/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#web3"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#web3"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/spk_rekomendasi_kosan"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6>SPK Pemilihan rekomendasi kosan dengan Metode SMART</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card card-web">
+                <div id="web4" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/web/siswa-terbaik/1.png"
+                        data-gallery="GalleryWeb4"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/siswa-terbaik/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/siswa-terbaik/2.png"
+                        data-gallery="GalleryWeb4"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/siswa-terbaik/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/siswa-terbaik/3.png"
+                        data-gallery="GalleryWeb4"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/siswa-terbaik/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#web4"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#web4"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/spk_smart_siswa_terbaik"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6>SPK Pemilihan siswa terbaik dengan Metode SMART</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card card-web">
+                <div id="web5" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/web/karyawan-phk/1.png"
+                        data-gallery="GalleryWeb5"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/karyawan-phk/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/karyawan-phk/2.png"
+                        data-gallery="GalleryWeb5"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/karyawan-phk/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/web/karyawan-phk/3.png"
+                        data-gallery="GalleryWeb5"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/web/karyawan-phk/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#web5"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#web5"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/spk_ahp_karyawan_phk"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6>SPK Pemilihan Karyawan PHK dengan Metode AHP</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prototype -->
+        <div id="typography-images" class="d-none">
+          <div class="row row-cols-2">
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/1.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/1.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/2.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/2.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/3.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/3.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/4.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/4.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/5.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/5.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/6.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/6.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/7.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/7.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/8.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/8.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/9.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/9.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/10.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/10.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/11.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/11.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/12.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/12.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/13.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/13.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/14.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/14.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/15.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/15.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/16.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/16.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/17.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/17.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/18.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/18.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/19.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/19.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/20.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/20.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/21.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/21.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/22.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/22.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/23.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/23.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/24.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/24.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/25.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/25.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/26.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/26.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/27.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/27.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="work-box">
+                <a
+                  href="assets/img/portofolio/typography/28.jpg"
+                  data-gallery="GalleryTypography"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img img-typography">
+                    <img
+                      src="assets/img/portofolio/typography/28.jpg"
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-4 mt-3">
+              <a
+                href="https://pin.it/6yHxPiN"
+                target="_blank"
+                class="text-decoration-none text-dark"
+                >Lihat Lanjut di Pinterest
+                <i class="bi bi-arrow-right-circle"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div id="other-images" class="d-none">
+          <div class="row">
+
+            <!-- Catalogue -->
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <a
+                  href="assets/img/portofolio/other/catalogue/1.png"
+                  data-gallery="Catalogue"
+                  class="portfolio-lightbox"
+                >
+                  <img
+                    src="assets/img/portofolio/other/catalogue/1.png"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body text-center">
+                  <a class="text-decoration-none">
+                    <h6 class="card-title">Catalogue</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Majalah -->
+            <div class="col-md-3 mb-3">
+              <div class="card card-web">
+                <div id="Majalah" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/other/majalah/01.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/01.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/02.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/02.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/03.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/03.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/04.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/04.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/05.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/05.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/06.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/06.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/07.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/07.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/08.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/08.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/09.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/09.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/10.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/10.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/11.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/11.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/majalah/12.jpg"
+                        data-gallery="Majalah"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/majalah/12.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#Majalah"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#Majalah"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a class="text-decoration-none">
+                    <h6>Majalah</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cover Book -->
+            <div class="col-md-3 mb-3">
+              <div class="card card-web">
+                <div id="CoverBook" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/other/cover-book/1.jpg"
+                        data-gallery="CoverBook"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/cover-book/1.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/cover-book/2.jpg"
+                        data-gallery="CoverBook"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/cover-book/2.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/cover-book/3.jpg"
+                        data-gallery="CoverBook"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/cover-book/3.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#CoverBook"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#CoverBook"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a class="text-decoration-none">
+                    <h6>Cover Book</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr-atas text-primary" />
+            <h6 class="m-2">Projek Android</h6>
+            <hr class="hr-bawah text-primary" />
+
+            <!-- Crud Android -->
+            <div class="col-md-3 mb-3">
+              <div class="card card-web">
+                <div id="android1" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/other/crud-android/1.jpg"
+                        data-gallery="android1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/crud-android/1.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/crud-android/2.jpg"
+                        data-gallery="android1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/crud-android/2.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/crud-android/3.jpg"
+                        data-gallery="android1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/crud-android/3.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/crud-android/4.jpg"
+                        data-gallery="android1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/crud-android/4.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/crud-android/3.jpg"
+                        data-gallery="android1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/crud-android/3.jpg"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#android1"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#android1"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/crud-android"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6>Crud Android</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr-atas text-primary" />
+            <h6 class="m-2">Projek Java NetBeans</h6>
+            <hr class="hr-bawah text-primary" />
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <a
+                  href="assets/img/portofolio/other/java/t_pendaftaran.png"
+                  data-gallery="Java"
+                  class="portfolio-lightbox"
+                >
+                  <img
+                    src="assets/img/portofolio/other/java/t_pendaftaran.png"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/java_form_pendaftaran"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6 class="card-title">Form Pendaftaran</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <a
+                  href="assets/img/portofolio/other/java/t_spbu.png"
+                  data-gallery="Java"
+                  class="portfolio-lightbox"
+                >
+                  <img
+                    src="assets/img/portofolio/other/java/t_spbu.png"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/java_transaksi_spbu"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6 class="card-title">Transaksi SPBU</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <a
+                  href="assets/img/portofolio/other/java/t_parkir.png"
+                  data-gallery="Java"
+                  class="portfolio-lightbox"
+                >
+                  <img
+                    src="assets/img/portofolio/other/java/t_parkir.png"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/java_transaksi_parkir"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6 class="card-title">Transaksi Parkir</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <a
+                  href="assets/img/portofolio/other/java/t_Ojek.png"
+                  data-gallery="Java"
+                  class="portfolio-lightbox"
+                >
+                  <img
+                    src="assets/img/portofolio/other/java/t_Ojek.png"
+                    class="card-img-top"
+                  />
+                </a>
+                <div class="card-body text-center">
+                  <a
+                    href="https://github.com/Skrnagrh/Java_transaksi_ojek"
+                    class="text-decoration-none"
+                    target="_blank"
+                  >
+                    <h6 class="card-title">Transaksi Ojek Sederhana</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card card-web">
+                <div id="java1" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/other/java/ecommerce/1.png"
+                        data-gallery="java1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/ecommerce/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/ecommerce/2.png"
+                        data-gallery="java1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/ecommerce/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/ecommerce/3.png"
+                        data-gallery="java1"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/ecommerce/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#java1"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#java1"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a href="https://github.com/Skrnagrh/java_transaksi_ecommerce" class="text-decoration-none" target="_blank">
+                    <h6>Transaksi Ecommerce Sederhana</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+              <div class="card card-web">
+                <div id="java2" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/1.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/2.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/3.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/4.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/4.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/5.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/5.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/6.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/6.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/7.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/7.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/java/kereta-api/8.png"
+                        data-gallery="java2"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/java/kereta-api/8.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#java2"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#java2"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a href="https://github.com/Skrnagrh/crud_java_netbeans" class="text-decoration-none" target="_blank">
+                    <h6>Transaksi Tiket Kereta Api</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr-atas text-primary" />
+            <h6 class="m-2">Projek Delphi 7</h6>
+            <hr class="hr-bawah text-primary" />
+
+            <div class="col-md-3 mb-3">
+              <div class="card card-web">
+                <div id="delphi7" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a
+                        href="assets/img/portofolio/other/delphi7/1.png"
+                        data-gallery="delphi7"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/delphi7/1.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/delphi7/2.png"
+                        data-gallery="delphi7"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/delphi7/2.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/delphi7/3.png"
+                        data-gallery="delphi7"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/delphi7/3.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/delphi7/4.png"
+                        data-gallery="delphi7"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/delphi7/4.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a
+                        href="assets/img/portofolio/other/delphi7/5.png"
+                        data-gallery="delphi7"
+                        class="portfolio-lightbox"
+                      >
+                        <div class="work-img">
+                          <img
+                            src="assets/img/portofolio/other/delphi7/5.png"
+                            class="d-block w-100"
+                            style="min-height: 200px"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#delphi7"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#delphi7"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-center">
+                  <a href="https://github.com/Skrnagrh/delphi_aplikasi_perpustakaan" class="text-decoration-none" target="_blank">
+                    <h6>Aplikasi Perpustakaan Delphi 7</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <a
+              href="https://maps.google.com?q=Taktakan, Serang, Banten, Indonesia"
+              target="_blank"
+              class="text-decoration-none text-light"
+            >
+              <p class="lead mb-0">
+                Taktakan
+                <br />
+                Serang Banten Indonesia
+              </p>
+            </a>
+          </div>
+          <div class="col-lg-6 mb-5 mb-lg-0" id="contact">
+            <h4 class="text-uppercase mb-4">Contact me</h4>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://instagram.com/skrnagrh"
+              target="_blank"
+              ><i class="fab fa-fw fa-instagram"></i>
+            </a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://api.whatsapp.com/send?phone=6285691468025"
+              target="_blank"
+              ><i class="fab fa-fw fa-whatsapp"></i>
+            </a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://linkedin.com/in/sukron"
+              target="_blank"
+              ><i class="fab fa-fw fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/skrnagrh"
+              target="_blank"
+              ><i class="fab fa-fw fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white bg-dark">
+      <div class="container">
+        <small id="copyright-year"
+          >Copyright &copy; Portofolio - Sukron <span id="current-year"></span>
+        </small>
+      </div>
+    </div>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/portofolio.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
