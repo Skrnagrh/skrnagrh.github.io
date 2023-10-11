@@ -6,7 +6,8 @@
 }
 
 .desktop-avatar {
-    min-width: 450px;
+    min-width: 400px;
+    margin-top: -20px;
   }
 
 .slide-content {
