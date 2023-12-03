@@ -38,18 +38,33 @@
     />
     <style>
       @media only screen and (max-width: 768px) {
-        .gambar-atas {
+        .gambar-1{
+          filter: drop-shadow(5px 5px 5px #1aa085);
+        }
+        .gambar-2 {
           margin-top: -350px;
+        }
+        .gambar-3 {
+          margin-top: -400px;
+          filter: drop-shadow(10px 10px 5px #0a0a0a);
         }
       }
       @media only screen and (min-width: 769px) {
-        .gambar-atas {
+        .gambar-1{
+          filter: drop-shadow(5px 5px 5px #1aa085);
+        }
+        .gambar-2 {
           margin-top: -450px;
+        }
+        .gambar-3 {
+          margin-top: -500px;
+          filter: drop-shadow(10px 10px 5px #0a0a0a);
         }
       }
       @media only screen and (min-width: 1000px) {
         .download {
-          margin-top: -40px;
+          filter: drop-shadow(5px 5px 5px #303030);
+          margin-top: -50px;
         }
       }
     </style>
@@ -115,24 +130,36 @@
     <header
       class="masthead text-light text-center"
       id="about"
-      style="background-image: url(assets/img/bg_header.png)"
+      style="background-image: url(assets/img/background/bg_header.png)"
     >
       <!-- <header class="masthead bg-primary text-white text-center" id="about"> -->
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-6" data-aos="">
             <img
-              class="masthead-avatar mb-2 desktop-avatar"
-              src="assets/img/5.png"
+              class="masthead-avatar mb-2 desktop-avatar gambar-1"
+              src="assets/img/index/profile/1.png"
               data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="500"
             />
             <img
-              class="masthead-avatar mb-2 desktop-avatar gambar-atas"
-              src="assets/img/7.png"
+              class="masthead-avatar mb-2 desktop-avatar gambar-2"
+              src="assets/img/index/profile/2.png"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+            />
+            <img
+              class="masthead-avatar mb-2 desktop-avatar gambar-3"
+              src="assets/img/index/profile/3.png"
               data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
             />
           </div>
-          <div class="col-md-12 col-lg-6" data-aos="fade-up">
+          <div class="col-md-12 col-lg-6" data-aos="fade-up" data-aos-easing="linear"
+          data-aos-duration="500">
             <h1
               class="masthead-heading text-uppercase mb-0 fs-3"
               style="margin-top: -30px"
@@ -351,7 +378,7 @@
     <section
       class="page-section text-white"
       id="education"
-      style="background-image: url(assets/img/bg_edu.png)"
+      style="background-image: url(assets/img/background/bg_edu.png)"
     >
       <div class="container my-5">
         <h2
@@ -559,7 +586,7 @@
     <section
       class="page-section"
       id="skill"
-      style="background-image: url(assets/img/bg_skill.png)"
+      style="background-image: url(assets/img/background/bg_skill.png)"
     >
       <div class="container">
         <div class="col-sm-12">
